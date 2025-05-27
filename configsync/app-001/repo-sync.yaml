@@ -2,6 +2,7 @@ apiVersion: configsync.gke.io/v1beta1
 kind: RepoSync
 metadata:
   name: repo-sync
+  namespace: app-001
 spec:
   sourceFormat: unstructured
   git:
