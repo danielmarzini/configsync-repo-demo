@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ilb-deployment
-  namespace: app-2
+  namespace: my-app-dev
 spec:
   replicas: 3
   selector:
