@@ -1,0 +1,13 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RepoSync
+metadata:
+  name: app-team-a-reposync
+  namespace: my-app-prod
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/danielmarzini/configsync-application-example
+    branch: main
+    revision: HEAD
+    dir: "configsync/clusters/cluster-east/namespaces/gamestore"
+    auth: none

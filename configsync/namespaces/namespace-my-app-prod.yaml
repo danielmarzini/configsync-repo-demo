@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: my-app-prod
+  # labels: # App team can add their own labels
+  #   team: app-a
+  #   environment: development
