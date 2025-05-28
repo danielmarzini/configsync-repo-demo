@@ -4,7 +4,7 @@ metadata:
   name: ilb-deployment
   namespace: my-app-dev
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: ilb-deployment
